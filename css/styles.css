@@ -1,0 +1,81 @@
+/* шрифты
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* Загальні */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-background-color: #2f303a;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+.list-settings {
+  list-style: none;
+}
+.second-title {
+  color: var(--title-text-color);
+}
+
+/* Навігація */
+
+.logo {
+  color: #000000;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.nav-list {
+  color: var(--title-text-color);
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  color: var(--primary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Мейн */
+
+.title {
+  color: #ffffff;
+  background-color: var(--secondary-background-color);
+}
+.primary-button {
+  color: inherit;
+  background-color: var(--accent-color);
+}
+.filter-button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.logo-footer {
+  color: #ffffff;
+}
+.address-list {
+  color: #ffffff;
+}
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
