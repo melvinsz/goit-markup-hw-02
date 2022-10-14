@@ -29,9 +29,6 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-.logo-web {
-  color: var(--accent-color);
-}
 .nav {
   font-weight: 500;
   line-height: 1.14;
@@ -41,9 +38,10 @@ body {
   color: var(--title-text-color);
   text-decoration: none;
 }
-.nav-current {
-  color: var(--accent-color);
-}
+.logo-web,
+.nav-current,
+.contacts:hover,
+.contacts:focus,
 .nav-list:hover,
 .nav-list:focus {
   color: var(--accent-color);
@@ -54,10 +52,6 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.contacts:hover,
-.contacts:focus {
-  color: var(--accent-color);
 }
 
 /* Мейн */
